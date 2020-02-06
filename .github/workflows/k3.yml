@@ -8,16 +8,16 @@
 
 name: Lean-k3
 
-on: 
-  release:
-    types: [published]
+#on: 
+  #release:
+    #types: [published]
 
-  push:
-    branches: 
+  #push:
+    #branches: 
       - master
 
-  schedule:
-    - cron: 0 01 * * *
+  #schedule:
+    #- cron: 0 01 * * *
   
   #watch:
   #  types: [started]
